@@ -1,13 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina del Estudiante</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="estudiante_pagina.css">
 </head>
+
 <body>
-    <h1>Bienvenido a la pagina del estudiante</h1>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">Empleate</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Tu Pagina</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Buscar Trabajo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Configuración de perfil</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="contenedor_perfil">
+        <main class="row">
+            <aside class="col-md-3">
+                <img src="img/foto_perfil.png" class="rounded-circle" alt="foto_perfil" height="180px" width="190px">
+                <h3>Vergaray Gutierrez, Dyron</h3>
+            </aside>
+            <article class="col-md-9">
+                <h3>Descripción</h3>
+                <p class="d-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim impedit
+                    minima quasi doloremque corporis, molestiae culpa nam deserunt itaque rerum explicabo ex quis illo
+                    libero cupiditate earum provident cumque. Dicta velit amet, minima cum iure ipsa.
+                </p>
+
+                <div class="container">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr class="table-primary">
+                                <th>Entidad</th>
+                                <th>Titulo</th>
+                                <th>Descargable</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Google</th>
+                                <th>Cloud Camp</th>
+                                <th><a href="#">Descargar</a></th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="container">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr class="table-primary">
+                                <th>Entidad</th>
+                                <th>Puesto</th>
+                                <th>Periodo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>BBVA</th>
+                                <th>Software Developer</th>
+                                <th>2021-2025</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </article>
+        </main>
+    </div>
+
 </body>
+
 </html>

@@ -1,0 +1,28 @@
+.cuadro_inicio_sesion{
+    background-color: white;
+    color: black;
+    width: 420px;
+    height: 420px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
+div{
+    margin-top: 30px;
+}
+
+button{
+    margin-top: 30px;
+}

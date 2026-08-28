@@ -31,24 +31,3 @@ th{
     align-items: center;
     justify-content: center;
 }
-
-.modal-body{
-    display: flex;
-    align-items: center;
-}
-
-.noti_perfil{
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-}
-
-.noti_msg{
-    margin: 0;
-}
-
-.logo_empleate{
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-}
